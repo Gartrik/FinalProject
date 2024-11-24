@@ -160,8 +160,8 @@ export default function MyRecipeScreen() {
       marginTop: hp(5),
     },
     recipeCard: {
-      width: 400, // Make recipe card width more compact
-      height: 350, // Adjust the height of the card to fit content
+      width: 400,
+      height: 350, 
       backgroundColor: "#fff",
       padding: wp(3),
       borderRadius: 8,
@@ -171,11 +171,11 @@ export default function MyRecipeScreen() {
       shadowOpacity: 0.1,
       shadowRadius: 4,
       shadowOffset: { width: 0, height: 2 },
-      elevation: 3, // for Android shadow
+      elevation: 3,
     },
     recipeImage: {
-      width: 300, // Set width for recipe image
-      height: 150, // Adjust height of the image
+      width: 300,
+      height: 150,
       borderRadius: 8,
       marginBottom: hp(1),
     },
@@ -199,7 +199,7 @@ export default function MyRecipeScreen() {
       backgroundColor: "#34D399",
       padding: wp(.5),
       borderRadius: 5,
-      width: 100, // Adjust width of buttons to be more compact
+      width: 100,
       alignItems: "center",
     },
     editButtonText: {
@@ -211,7 +211,7 @@ export default function MyRecipeScreen() {
       backgroundColor: "#EF4444",
       padding: wp(.5),
       borderRadius: 5,
-      width: 100, // Adjust width of buttons to be more compact
+      width: 100,
       alignItems: "center",
     },
     deleteButtonText: {
