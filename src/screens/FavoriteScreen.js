@@ -104,7 +104,7 @@ const styles = StyleSheet.create({
   },
   emptyText: {
     fontSize: hp(2.5),
-    color: "#6B7280", // text-neutral-600
+    color: "#6B7280",
   },
   listContentContainer: {
     paddingHorizontal: wp(4),
@@ -115,8 +115,8 @@ const styles = StyleSheet.create({
     marginBottom: hp(2),
     padding: wp(4),
     borderRadius: 10,
-    elevation: 3, // For Android shadow
-    shadowColor: "#000", // For iOS shadow
+    elevation: 3,
+    shadowColor: "#000",
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.1,
     shadowRadius: 8,
@@ -132,6 +132,6 @@ const styles = StyleSheet.create({
   recipeTitle: {
     fontSize: hp(2),
     fontWeight: "bold",
-    color: "#4B5563", // text-neutral-700
+    color: "#4B5563",
   },
 });
