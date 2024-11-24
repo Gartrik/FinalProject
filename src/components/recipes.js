@@ -49,13 +49,13 @@ const ArticleCard = ({ item, index, navigation }) => {
 
 const styles = StyleSheet.create({
   container: {
-    marginHorizontal: wp(4), // mx-4 equivalent
+    marginHorizontal: wp(4), 
     marginTop: hp(2),
   },
   title: {
     fontSize: hp(3),
-    fontWeight: "600", // font-semibold
-    color: "#52525B", // text-neutral-600
+    fontWeight: "600",
+    color: "#52525B", 
     marginBottom: hp(1.5),
   },
   loading: {
@@ -64,28 +64,28 @@ const styles = StyleSheet.create({
   cardContainer: {
     justifyContent: "center",
     marginBottom: hp(1.5),
-    flex: 1, // Allows cards to grow and fill space evenly
+    flex: 1,
   },
   articleImage: {
     width: "100%",
    
     borderRadius: 35,
-    backgroundColor: "rgba(0, 0, 0, 0.05)", // bg-black/5
+    backgroundColor: "rgba(0, 0, 0, 0.05)",
   },
   articleText: {
     fontSize: hp(1.5),
-    fontWeight: "600", // font-semibold
-    color: "#52525B", // text-neutral-600
+    fontWeight: "600",
+    color: "#52525B",
     marginLeft: wp(2),
     marginTop: hp(0.5),
   },
   articleDescription: {
     fontSize: hp(1.2),
-    color: "#6B7280", // gray-500
+    color: "#6B7280",
     marginLeft: wp(2),
     marginTop: hp(0.5),
   },
   row: {
-    justifyContent: "space-between", // Align columns evenly
+    justifyContent: "space-between",
   },
 });
