@@ -7,7 +7,7 @@ import {
     StyleSheet,
   } from "react-native";
   import React from "react";
-  import { useNavigation } from "@react-navigation/native"; // Import navigation
+  import { useNavigation } from "@react-navigation/native"; 
   import {
     widthPercentageToDP as wp,
     heightPercentageToDP as hp,
@@ -19,7 +19,7 @@ import {
     activeCategory,
     handleChangeCategory,
   }) {
-    const navigation = useNavigation(); // Use navigation
+    const navigation = useNavigation();
   
     return (
       <Animated.View entering={FadeInDown.duration(500).springify()}>
@@ -30,7 +30,7 @@ import {
         >
           {/* Add "My Food" category */}
           <TouchableOpacity
-            onPress={() => navigation.navigate("MyFood")} // Navigate to "MyFood" screen
+            onPress={() => navigation.navigate("MyFood")} 
             style={styles.categoryContainer}
           >
             <View style={[styles.imageContainer, styles.myFoodButton]}>
@@ -42,7 +42,7 @@ import {
             <Text style={styles.categoryText}>My Food</Text>
           </TouchableOpacity>
           <TouchableOpacity
-            onPress={() => navigation.navigate("FavoriteScreen")} // Navigate to "MyFood" screen
+            onPress={() => navigation.navigate("FavoriteScreen")} 
             style={styles.categoryContainer}
           >
             <View style={[styles.imageContainer, styles.myFoodButton]}>
@@ -108,7 +108,6 @@ import {
       color: "#52525B",
       marginTop: hp(0.5),
     },
-    // Styles for "My Food" category
     myFoodButton: {
       backgroundColor: "#4ADE80",
       justifyContent: "center",
